@@ -294,7 +294,7 @@
   }
 
   MediaQuery.prototype.toString = function () {
-    return this.query || (this.query = S(this.selector).css('font-family').replace(/^[\/\\'"]+|(;\s?})+|[\/\\'"]+$/g, ''));
+    //return this.query || (this.query = S(this.selector).css('font-family').replace(/^[\/\\'"]+|(;\s?})+|[\/\\'"]+$/g, ''));
   };
 
   window.Foundation = {
